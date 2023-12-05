@@ -1,7 +1,7 @@
 import { Text, Box, Textarea, TextareaInput, FormControl, FormControlLabel, InputField, HStack, VStack } from "@gluestack-ui/themed";
 import { Input as GlueInput } from "@gluestack-ui/themed";
 import React from "react";
-import { Picker } from '@react-native-picker/picker'; // Import Picker from @react-native-picker/picker
+// import { Picker } from '@react-native-picker/picker';
 
 const Input = ({ dropdown, textarea, width, height, fontSize, label, value, secureTextEntry, keyboardType, onChangeText, disabled }) => {
   if (textarea) {
